@@ -1,0 +1,420 @@
+{
+  "description": "PROPOSED supplements for review only - NOT part of the generated resource and NOT loadable by BrightPath as-is. Candidates derived from ecoinvent's Correspondence File v3.12 - v3.13 (exact UUID join): (1) 3.12 cut-off identities that disappear in 3.13 without an ecoinvent_migrate rule although the correspondence names a target; (2) optional, non-breaking co-product splits mirroring a sibling rule.",
+  "source_id": "ecoinvent-3.12-cutoff",
+  "target_id": "ecoinvent-3.13-cutoff",
+  "disaggregate": [
+    {
+      "source": {
+        "unit": "kg",
+        "name": "cottonseed to generic market for energy feed",
+        "reference product": "protein feed, 100% crude",
+        "location": "RoW"
+      },
+      "targets": [
+        {
+          "unit": "kg",
+          "name": "cottonseed to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "BR",
+          "allocation": 0.14418138288567292
+        },
+        {
+          "unit": "kg",
+          "name": "cottonseed to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "CN",
+          "allocation": 0.2844046614017641
+        },
+        {
+          "unit": "kg",
+          "name": "cottonseed to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "RoW",
+          "allocation": 0.4538031407415706
+        },
+        {
+          "unit": "kg",
+          "name": "cottonseed to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "TR",
+          "allocation": 0.0230439636971546
+        },
+        {
+          "unit": "kg",
+          "name": "cottonseed to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "US",
+          "allocation": 0.09456685127383782
+        }
+      ],
+      "brightpath_review": {
+        "status": "proposed - optional (non-breaking), requires review, not applied",
+        "rationale": "Co-product of the same 3.12 activity as 'cottonseed to generic market for energy feed | energy feed, gross | RoW | megajoule', which ecoinvent_migrate disaggregates; the correspondence file lists the same geographic split for this co-product. Allocation shares are mirrored from the sibling rule (reference-product production volumes), an assumption the reviewer must confirm.",
+        "evidence": "ecoinvent 'Correspondence File v3.12 - v3.13.xlsx', sheet 'Cut-off', exact UUID join",
+        "source_ids": [
+          "658bf82b-fc12-5be1-91ae-0f86179f8d14",
+          "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+        ],
+        "target_ids": [
+          [
+            "17b5dc48-22e4-5582-8343-917759a48169",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ],
+          [
+            "196da092-c1f4-5860-98d0-25a611eac582",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ],
+          [
+            "123f44d8-4c17-5e23-a04f-d32e44d683ef",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ],
+          [
+            "0c46b32b-e2b6-5064-9447-819ff6d6e699",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ],
+          [
+            "14c604b9-d92b-56ef-9b23-f4bda61bb181",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ]
+        ]
+      }
+    },
+    {
+      "source": {
+        "unit": "kg",
+        "name": "cottonseed, organic to generic market for energy feed",
+        "reference product": "protein feed, 100% crude",
+        "location": "RoW"
+      },
+      "targets": [
+        {
+          "unit": "kg",
+          "name": "cottonseed, organic to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "BR",
+          "allocation": 0.0013682462918029321
+        },
+        {
+          "unit": "kg",
+          "name": "cottonseed, organic to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "PE",
+          "allocation": 0.013122489248937651
+        },
+        {
+          "unit": "kg",
+          "name": "cottonseed, organic to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "RoW",
+          "allocation": 0.5299141934704776
+        },
+        {
+          "unit": "kg",
+          "name": "cottonseed, organic to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "TR",
+          "allocation": 0.29208257645848723
+        },
+        {
+          "unit": "kg",
+          "name": "cottonseed, organic to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "TZ",
+          "allocation": 0.12304027574744145
+        },
+        {
+          "unit": "kg",
+          "name": "cottonseed, organic to generic market for energy feed",
+          "reference product": "protein feed, 100% crude",
+          "location": "US",
+          "allocation": 0.04047221878285312
+        }
+      ],
+      "brightpath_review": {
+        "status": "proposed - optional (non-breaking), requires review, not applied",
+        "rationale": "Co-product of the same 3.12 activity as 'cottonseed, organic to generic market for energy feed | energy feed, gross | RoW | megajoule', which ecoinvent_migrate disaggregates; the correspondence file lists the same geographic split for this co-product. Allocation shares are mirrored from the sibling rule (reference-product production volumes), an assumption the reviewer must confirm.",
+        "evidence": "ecoinvent 'Correspondence File v3.12 - v3.13.xlsx', sheet 'Cut-off', exact UUID join",
+        "source_ids": [
+          "4706d24e-6a6e-5cc2-bd72-ec19ea536dae",
+          "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+        ],
+        "target_ids": [
+          [
+            "aa319a9e-6412-5595-b366-275d4c6ca076",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ],
+          [
+            "3c6e0256-e101-558e-a956-c0dba49b8601",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ],
+          [
+            "f0756195-4aec-54f0-9b2f-284d264e32a9",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ],
+          [
+            "16eeced2-a3e5-50bb-b7d6-7fd9e1eed719",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ],
+          [
+            "bc239ccf-9431-5dde-ace6-8345fb45b15a",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ],
+          [
+            "03292f10-725c-501b-83c2-e1081a975dd6",
+            "8b2dfb58-660d-44eb-b83f-5d9e28e467db"
+          ]
+        ]
+      }
+    },
+    {
+      "source": {
+        "unit": "kg",
+        "name": "fibre production, cotton, ginning",
+        "reference product": "cottonseed",
+        "location": "RoW"
+      },
+      "targets": [
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, ginning",
+          "reference product": "cottonseed",
+          "location": "BR",
+          "allocation": 0.1742902708124157
+        },
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, ginning",
+          "reference product": "cottonseed",
+          "location": "CN",
+          "allocation": 0.31136230671176346
+        },
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, ginning",
+          "reference product": "cottonseed",
+          "location": "RoW",
+          "allocation": 0.38410224343860816
+        },
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, ginning",
+          "reference product": "cottonseed",
+          "location": "TR",
+          "allocation": 0.0274030601570302
+        },
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, ginning",
+          "reference product": "cottonseed",
+          "location": "US",
+          "allocation": 0.10284211888018252
+        }
+      ],
+      "brightpath_review": {
+        "status": "proposed - optional (non-breaking), requires review, not applied",
+        "rationale": "Co-product of the same 3.12 activity as 'fibre production, cotton, ginning | fibre, cotton | RoW | kilogram', which ecoinvent_migrate disaggregates; the correspondence file lists the same geographic split for this co-product. Allocation shares are mirrored from the sibling rule (reference-product production volumes), an assumption the reviewer must confirm.",
+        "evidence": "ecoinvent 'Correspondence File v3.12 - v3.13.xlsx', sheet 'Cut-off', exact UUID join",
+        "source_ids": [
+          "aa27eb5a-1e86-553b-84bb-33d6bd6a35cc",
+          "9b8b880d-a6f6-45e1-ab18-cc2562b6da61"
+        ],
+        "target_ids": [
+          [
+            "6632fdad-22d0-5d3d-aae2-5fbef7b75db9",
+            "9b8b880d-a6f6-45e1-ab18-cc2562b6da61"
+          ],
+          [
+            "4164832d-d495-57d4-810b-41a7dbc82776",
+            "9b8b880d-a6f6-45e1-ab18-cc2562b6da61"
+          ],
+          [
+            "62351b8d-a6bf-5d26-ab92-523f8cd500ca",
+            "9b8b880d-a6f6-45e1-ab18-cc2562b6da61"
+          ],
+          [
+            "eca3ec68-0c46-5c49-b0de-6c1a414e8536",
+            "9b8b880d-a6f6-45e1-ab18-cc2562b6da61"
+          ],
+          [
+            "89d70d90-124f-5e72-b82a-5893fb74ec2a",
+            "9b8b880d-a6f6-45e1-ab18-cc2562b6da61"
+          ]
+        ]
+      }
+    },
+    {
+      "source": {
+        "unit": "kg",
+        "name": "fibre production, cotton, organic, ginning",
+        "reference product": "cottonseed, organic",
+        "location": "RoW"
+      },
+      "targets": [
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, organic, ginning",
+          "reference product": "cottonseed, organic",
+          "location": "BR",
+          "allocation": 0.0012332813299705861
+        },
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, organic, ginning",
+          "reference product": "cottonseed, organic",
+          "location": "PE",
+          "allocation": 0.00978994135747276
+        },
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, organic, ginning",
+          "reference product": "cottonseed, organic",
+          "location": "RoW",
+          "allocation": 0.6069317347951828
+        },
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, organic, ginning",
+          "reference product": "cottonseed, organic",
+          "location": "TR",
+          "allocation": 0.2589890792938231
+        },
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, organic, ginning",
+          "reference product": "cottonseed, organic",
+          "location": "TZ",
+          "allocation": 0.09268186274812079
+        },
+        {
+          "unit": "kg",
+          "name": "fibre production, cotton, organic, ginning",
+          "reference product": "cottonseed, organic",
+          "location": "US",
+          "allocation": 0.030374100475429953
+        }
+      ],
+      "brightpath_review": {
+        "status": "proposed - optional (non-breaking), requires review, not applied",
+        "rationale": "Co-product of the same 3.12 activity as 'fibre production, cotton, organic, ginning | fibre, cotton, organic | RoW | kilogram', which ecoinvent_migrate disaggregates; the correspondence file lists the same geographic split for this co-product. Allocation shares are mirrored from the sibling rule (reference-product production volumes), an assumption the reviewer must confirm.",
+        "evidence": "ecoinvent 'Correspondence File v3.12 - v3.13.xlsx', sheet 'Cut-off', exact UUID join",
+        "source_ids": [
+          "a4574d10-1c89-53cc-a023-b425a474c312",
+          "a769b2aa-bc38-5d86-b813-d0d1d9e3666c"
+        ],
+        "target_ids": [
+          [
+            "c01e0693-af7b-54ac-b85b-983403362be0",
+            "a769b2aa-bc38-5d86-b813-d0d1d9e3666c"
+          ],
+          [
+            "9cb782ee-73f4-56cf-844e-f75236a7cd14",
+            "a769b2aa-bc38-5d86-b813-d0d1d9e3666c"
+          ],
+          [
+            "f806778f-b2c8-5407-8788-a8bc9c9026fa",
+            "a769b2aa-bc38-5d86-b813-d0d1d9e3666c"
+          ],
+          [
+            "d593fc49-30eb-5066-9789-8b58312d588a",
+            "a769b2aa-bc38-5d86-b813-d0d1d9e3666c"
+          ],
+          [
+            "a3b8f825-055b-50b8-ab48-28fe7eff0371",
+            "a769b2aa-bc38-5d86-b813-d0d1d9e3666c"
+          ],
+          [
+            "fa3aac42-0557-55a3-927d-d8c3a9a9658b",
+            "a769b2aa-bc38-5d86-b813-d0d1d9e3666c"
+          ]
+        ]
+      }
+    },
+    {
+      "source": {
+        "unit": "kWh",
+        "name": "heat and power co-generation, wood chips, 6667 kW",
+        "reference product": "electricity, high voltage",
+        "location": "RoW"
+      },
+      "targets": [
+        {
+          "unit": "kWh",
+          "name": "heat and power co-generation, wood chips, 6667 kW",
+          "reference product": "electricity, high voltage",
+          "location": "IN-AS",
+          "allocation": 0.16666666666666666
+        },
+        {
+          "unit": "kWh",
+          "name": "heat and power co-generation, wood chips, 6667 kW",
+          "reference product": "electricity, high voltage",
+          "location": "IN-HP",
+          "allocation": 0.16666666666666666
+        },
+        {
+          "unit": "kWh",
+          "name": "heat and power co-generation, wood chips, 6667 kW",
+          "reference product": "electricity, high voltage",
+          "location": "IN-JH",
+          "allocation": 0.16666666666666666
+        },
+        {
+          "unit": "kWh",
+          "name": "heat and power co-generation, wood chips, 6667 kW",
+          "reference product": "electricity, high voltage",
+          "location": "IN-KL",
+          "allocation": 0.16666666666666666
+        },
+        {
+          "unit": "kWh",
+          "name": "heat and power co-generation, wood chips, 6667 kW",
+          "reference product": "electricity, high voltage",
+          "location": "IN-ML",
+          "allocation": 0.16666666666666666
+        },
+        {
+          "unit": "kWh",
+          "name": "heat and power co-generation, wood chips, 6667 kW",
+          "reference product": "electricity, high voltage",
+          "location": "RoW",
+          "allocation": 0.16666666666666666
+        }
+      ],
+      "brightpath_review": {
+        "status": "proposed - optional (non-breaking), requires review, not applied",
+        "rationale": "Co-product of the same 3.12 activity as 'heat and power co-generation, wood chips, 6667 kW | heat, district or industrial, other than natural gas | RoW | megajoule', which ecoinvent_migrate disaggregates; the correspondence file lists the same geographic split for this co-product. Allocation shares are mirrored from the sibling rule (reference-product production volumes), an assumption the reviewer must confirm.",
+        "evidence": "ecoinvent 'Correspondence File v3.12 - v3.13.xlsx', sheet 'Cut-off', exact UUID join",
+        "source_ids": [
+          "c4142e37-3b6a-5e83-9dd6-57226bec70e8",
+          "66c93e71-f32b-4591-901c-55395db5c132"
+        ],
+        "target_ids": [
+          [
+            "63398e99-9923-5b8b-abc0-8ff1359fbcff",
+            "66c93e71-f32b-4591-901c-55395db5c132"
+          ],
+          [
+            "e8d98c5b-181c-5258-bf79-90cdc9fea7fd",
+            "66c93e71-f32b-4591-901c-55395db5c132"
+          ],
+          [
+            "a5b13090-b2b1-5358-86da-a959a15e6909",
+            "66c93e71-f32b-4591-901c-55395db5c132"
+          ],
+          [
+            "7cc407a9-6a4f-5e10-97ec-cf5ec1a8c7d4",
+            "66c93e71-f32b-4591-901c-55395db5c132"
+          ],
+          [
+            "4d5e0132-cdaa-57b7-8bb1-26043e602a4c",
+            "66c93e71-f32b-4591-901c-55395db5c132"
+          ],
+          [
+            "eab2d83b-8bca-500f-987c-9d38e9af72f3",
+            "66c93e71-f32b-4591-901c-55395db5c132"
+          ]
+        ]
+      }
+    }
+  ]
+}

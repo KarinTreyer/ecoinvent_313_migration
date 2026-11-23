@@ -1,0 +1,17 @@
+[
+  {
+    "biosphere_identities": 9893,
+    "biosphere_uuid_references": 9893,
+    "file": "ecoinvent__3.13__cutoff.json",
+    "profile": {
+      "family": "ecoinvent",
+      "system_model": "cutoff",
+      "version": "3.13"
+    },
+    "schema_version": 2,
+    "sha256": "935ef2d5c2f297a10b67b0391ead69d4d02ca2d35ed1805b86e60bf286a35c54",
+    "size": 10496509,
+    "technosphere_identities": 27400,
+    "technosphere_uuid_references": 27400
+  }
+]

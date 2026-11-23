@@ -1,0 +1,7 @@
+# Local, licence-derived intermediates (raw generator output, correspondence extract, logs)
+work/
+# Read-only upstream clone and local PR working copy (separate git repositories)
+brightpath_upstream/
+brightpath_pr/
+__pycache__/
+work_fetch.log
